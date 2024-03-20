@@ -1,0 +1,10 @@
+Cypress - Web
+Pactum - API (asserts, CRUD endpoints, json schema validation)
+Faker - random data generator
+Cloud dashboard - reporting Cypress
+Timeouts - config cypress + pactumjs (mocha CLI + pactum in before)
+Page object model (POM) - design pattern for web automation frameworks
+Mochawesome - raportare pactumjs
+Git & gitignore (rapoarte cu rezultate,downloads, node modules !!!)
+scripts in package.json
+enable/disable videos&screenshots
