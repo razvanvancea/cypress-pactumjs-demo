@@ -1,13 +1,13 @@
 const { spec, request } = require("pactum");
 
-describe("API TESTS", () => {
+const baseUrlApi = "https://jsonplaceholder.typicode.com";
+
+describe("Comments test suite", () => {
   before(() => {
     request.setDefaultTimeout(15000);
   });
 
-  it("get comments endpoint test", async () => {
-    await spec()
-      .get("https://jsonplaceholder.typicode.com/comments")
-      .expectStatus(200);
+  it("get comments api test", async () => {
+    await spec().get(`${baseUrlApi}/comments`).expectStatus(200);
   });
 });
